@@ -15,8 +15,7 @@
             android:id="@+id/name"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="name"
-            />
+            android:text="name" />
 
 
         <LinearLayout
@@ -35,12 +34,26 @@
                 android:textAppearance="@style/TextAppearance.AppCompat.Light.Widget.PopupMenu.Large" />
 
             <TextView
-                android:id="@+id/BYR"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_gravity="left"
                 android:gravity="bottom|right"
-                android:text=" BYR = " />
+                android:text=" " />
+
+            <TextView
+                android:id="@+id/abbreviation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="bottom"
+                android:text="LOL" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="left"
+                android:gravity="bottom|right"
+                android:text=" = " />
         </LinearLayout>
 
     </LinearLayout>
@@ -55,12 +68,10 @@
         android:textAppearance="@style/TextAppearance.Design.CollapsingToolbar.Expanded" />
 
     <TextView
-        android:id="@+id/abbreviation"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_weight="1"
         android:gravity="bottom|left"
-        android:text="LOL"
-        />
+        android:text="BYR" />
 
 </LinearLayout>

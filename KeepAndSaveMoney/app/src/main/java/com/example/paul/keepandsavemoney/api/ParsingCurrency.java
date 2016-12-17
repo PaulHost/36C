@@ -13,8 +13,8 @@ import org.json.JSONObject;
 import java.util.ArrayList;
 import java.util.List;
 
-import static com.example.paul.keepandsavemoney.Constants.BANK_API_URL;
-import static com.example.paul.keepandsavemoney.Constants.GET;
+import static com.example.paul.keepandsavemoney.constants.Constants.BANK_API_URL;
+import static com.example.paul.keepandsavemoney.constants.Constants.GET;
 
 /**
  * Created by paul on 12.12.16.
